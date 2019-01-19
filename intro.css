@@ -1,0 +1,49 @@
+.imagen img {
+    max-height: 6em;
+    width: auto;
+}
+
+.fila-1, .fila-2, .fila-3 {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.fila-1 {
+    justify-content: flex-end;
+}
+
+@media only screen and (max-width:600px) {
+
+    .foto {
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+    }
+    .img-fluid {
+
+        max-height: 15em;
+        width: auto;
+    }
+    .imagenes {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+        flex-flow: wrap;
+        padding: 10px 0;
+    }
+    .fila-1 {
+        display: flex;
+        justify-content: space-around;
+        flex-flow: wrap;
+        padding: 0%;
+    }
+    .fila-2 {
+        width: 100%;
+        justify-content: center;
+    }
+    .fila-3 {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+}
